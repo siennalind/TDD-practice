@@ -6,5 +6,6 @@ describe('greet', () => {
         expect(greet(null)).toBe('Hello, my friend.')
         expect(greet('CARL')).toBe('HELLO CARL!')
         expect(greet(['Carl', 'Carla'])).toBe('Hello, Carl and Carla.')
+        expect(greet(['Robin', 'Magpie', 'Starling'])).toBe('Hello Robin, Magpie, and Starling.')
     })
 })
